@@ -31,9 +31,9 @@ public class Higgins{
     public static void main(String[] args){
         System.out.println("# of common lines:");
         System.out.println("The common lines are"); 
-        File f1 = new File("file1.txt");
+        FileReader f1 = new FileReader("file1.txt");
         File f2 = new File("file2.txt");
-        BufferedReader br = new BufferedReader(new FileReader(f1));
+        BufferedReader br = new BufferedReader(f1);
         
     }
 }
