@@ -14,13 +14,7 @@ public class f {
 		// File path is passed as parameter
 		File file = new File("file1.txt");
 
-		// Note: Double backquote is to avoid compiler
-		// interpret words
-		// like \test as \t (ie. as a escape sequence)
-
-		// Creating an object of BufferedReader class
-		BufferedReader br
-			= new BufferedReader(new FileReader(file));
+		BufferedReader br = new BufferedReader(new FileReader(file));
 
 		// Declaring a string variable
 		String st;
